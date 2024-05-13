@@ -13,6 +13,6 @@ public class HelloWorldController {
 
     @GetMapping(path = "/hello-world-bean")
     public HelloWorldBean helloBean(){
-        return new HelloWorldBean("HelloWorldBean");
+        return new HelloWorldBean("HelloWorldBean1");
     }
 }
